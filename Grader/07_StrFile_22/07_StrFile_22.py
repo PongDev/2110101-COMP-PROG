@@ -1,0 +1,5 @@
+a=list(input().upper().replace(" ",""))
+b=list(input().upper().replace(" ",""))
+a.sort()
+b.sort()
+print("YES" if a==b else "NO")

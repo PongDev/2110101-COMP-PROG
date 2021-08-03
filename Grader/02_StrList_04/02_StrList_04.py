@@ -1,0 +1,5 @@
+m=input()
+n=int(input())
+mlen=len(m)
+m=int(m)
+print(str(max(0,n-mlen)*"0")+str(m))
